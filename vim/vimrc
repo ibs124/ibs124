@@ -1,0 +1,42 @@
+" set nobackup             " Do not save backup files.
+set nocompatible           " Disable compatibility with vi which can cause issues.
+
+filetype on                " Enable type file detection 
+filetype plugin on         " Enable plugins and load plugin for the detected file type.
+filetype indent on         " Load an indent file for the detected file type.
+
+syntax on                  " Enable syntax highlighting
+colorscheme habamax
+set colorcolumn=91         " Highlight the 90th column as a visual guide
+set number                 " Show absolute line numbers
+set relativenumber         " Show relative line numbers for easier movement
+set nowrap                 " Allow long lines to extend as far as the line goes.
+set scrolloff=10           " Do not let cursor scroll below/above N lines when scrolling
+
+set expandtab              " Convert tabs into spaces
+set autoindent             " Copy indentation from the previous line
+set smartindent            " Automatically indent code blocks based on syntax
+set smarttab               " Tab at line start uses shiftwidth for indentation
+set tabstop=4              " A tab character is displayed as 4 spaces
+set shiftwidth=4           " Number of spaces used for auto-indents and << >>
+set softtabstop=4          " Tab and backspace act as if tabs are 4 spaces
+autocmd FileType text setlocal nosmartindent    " Turn off smartindent for text files
+
+set showmatch              " During search: show matching words 
+set hlsearch               " During search: use highlighting
+set incsearch              " During search: incrementally highlight matching charas 
+set ignorecase             " During search: Ignore capital letters
+set smartcase              " Override the ignorecase option if searching for capital  
+
+set showcmd                " Show partial command you type in the last line of the screen
+set showmode               " Show the mode you are on the last line.
+
+" langmap: Bulgarian Traditional Phonteic -> English US 
+set langmap+=1234567890-=;1234567890-= 
+set langmap+=!@№$%€§*()–+;!@#$%^&*()_+ 
+set langmap+=явертъуиопшщю;qwertyuiop[]\ 
+set langmap+=ЯВЕРТЪУИОПШЩЮ;QWERTYUIOP{}\| 
+set langmap+=асдфгхйкл;asdfghjkl
+set langmap+=АСДФГХЙКЛ;ASDFGHJKL 
+set langmap+=зьцжбнм;zxcvbnm 
+set langmap+=ЗѝЦЖБНМ„“;ZXCVBNM<> 

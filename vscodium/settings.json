@@ -1,0 +1,44 @@
+{
+    // -------- T E L E M E T R Y -------- //
+    "telemetry.telemetryLevel": "off",
+    "redhat.telemetry.enabled": false,
+    
+    // -------- F I L E S  A U T O S A V E -------- //
+    "files.autoSave": "onFocusChange",
+    // "files.autoSaveDelay": 100,
+    
+    // -------- T E X T  E D I T O R -------- //
+    "workbench.startupEditor": "none",
+    "editor.rulers": [
+        90
+    ],
+    "editor.cursorStyle": "block",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.wordWrap": "off",
+    "workbench.colorCustomizations": {
+        "[Visual Studio Dark]": {
+            "statusBar.background": "#3c3836",
+        }
+    },
+    "editor.stickyScroll.enabled": false,
+    
+    // -------- J A V A -------- //
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.format.settings.url": "~/.vscode-oss/extensions/redhat.java-1.33.0-linux-x64/formatters/java-formatter.xml",
+    "[java]": {
+        "editor.detectIndentation": false
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.foldingHighlight": false,
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    },
+    "editor.lineNumbers": "relative",
+    "diffEditor.renderSideBySide": true,
+    "workbench.preferredHighContrastColorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Visual Studio Dark",
+}

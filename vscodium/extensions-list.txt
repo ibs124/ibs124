@@ -1,0 +1,9 @@
+vscodevim.vim
+
+vscjava.vscode-java-pack
+
+ritwickdey.liveserver
+
+vmware.vscode-boot-dev-pack
+
+gruntfuggly.todo-tree

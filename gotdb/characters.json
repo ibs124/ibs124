@@ -1,0 +1,496 @@
+[
+    {
+        "id": 1,
+        "name": "Eddard Stark",
+        "nicknames": [
+            "Ned"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Catelyn Stark"
+    },
+    {
+        "id": 3,
+        "name": "Robb Stark",
+        "nicknames": [
+            "The Young Wolf"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Sansa Stark"
+    },
+    {
+        "id": 5,
+        "name": "Arya Stark",
+        "nicknames": [
+            "No One"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Bran Stark",
+        "nicknames": [
+            "Three-Eyed Raven",
+            "Bran the Broken"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Rickon Stark"
+    },
+    {
+        "id": 8,
+        "name": "Jon Snow",
+        "nicknames": [
+            "Lord Snow",
+            "The Bastard of Winterfell",
+            "The White Wolf",
+            "King in the North"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Benjen Stark"
+    },
+    {
+        "id": 10,
+        "name": "Lyanna Stark"
+    },
+    {
+        "id": 11,
+        "name": "Tyrion Lannister",
+        "nicknames": [
+            "The Imp",
+            "The Halfman"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Cersei Lannister"
+    },
+    {
+        "id": 13,
+        "name": "Jaime Lannister",
+        "nicknames": [
+            "Kingslayer"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Tywin Lannister"
+    },
+    {
+        "id": 15,
+        "name": "Joffrey Baratheon"
+    },
+    {
+        "id": 16,
+        "name": "Robert Baratheon"
+    },
+    {
+        "id": 17,
+        "name": "Stannis Baratheon"
+    },
+    {
+        "id": 18,
+        "name": "Renly Baratheon"
+    },
+    {
+        "id": 19,
+        "name": "Tommen Baratheon"
+    },
+    {
+        "id": 20,
+        "name": "Myrcella Baratheon"
+    },
+    {
+        "id": 21,
+        "name": "Daenerys Targaryen",
+        "nicknames": [
+            "Daenerys Stormborn",
+            "Mother of Dragons",
+            "Breaker of Chains",
+            "The Unburnt",
+            "Khaleesi",
+            "Dragonqueen"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Rhaegar Targaryen"
+    },
+    {
+        "id": 23,
+        "name": "Viserys Targaryen"
+    },
+    {
+        "id": 24,
+        "name": "Aerys II Targaryen",
+        "nicknames": [
+            "The Mad King"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Aegon II Targaryen"
+    },
+    {
+        "id": 26,
+        "name": "Rhaenyra Targaryen"
+    },
+    {
+        "id": 27,
+        "name": "Daemon Targaryen"
+    },
+    {
+        "id": 28,
+        "name": "Viserys I Targaryen"
+    },
+    {
+        "id": 29,
+        "name": "Aegon III Targaryen"
+    },
+    {
+        "id": 30,
+        "name": "Alicent Hightower"
+    },
+    {
+        "id": 31,
+        "name": "Otto Hightower"
+    },
+    {
+        "id": 32,
+        "name": "Ser Criston Cole"
+    },
+    {
+        "id": 33,
+        "name": "Corlys Velaryon",
+        "nicknames": [
+            "The Sea Snake"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Rhaenys Velaryon"
+    },
+    {
+        "id": 35,
+        "name": "Laenor Velaryon"
+    },
+    {
+        "id": 36,
+        "name": "Laena Velaryon"
+    },
+    {
+        "id": 37,
+        "name": "Baela Targaryen"
+    },
+    {
+        "id": 38,
+        "name": "Rhaena Targaryen"
+    },
+    {
+        "id": 39,
+        "name": "Harwin Strong"
+    },
+    {
+        "id": 40,
+        "name": "Jorah Mormont"
+    },
+    {
+        "id": 41,
+        "name": "Jeor Mormont"
+    },
+    {
+        "id": 42,
+        "name": "Samwell Tarly",
+        "nicknames": [
+            "Sam"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Gilly"
+    },
+    {
+        "id": 44,
+        "name": "Brienne of Tarth"
+    },
+    {
+        "id": 45,
+        "name": "Tormund Giantsbane"
+    },
+    {
+        "id": 46,
+        "name": "Ygritte"
+    },
+    {
+        "id": 47,
+        "name": "Khal Drogo"
+    },
+    {
+        "id": 48,
+        "name": "Jaqen H'ghar"
+    },
+    {
+        "id": 49,
+        "name": "Melisandre",
+        "nicknames": [
+            "The Red Woman",
+            "Melisandre of Asshai"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Davos Seaworth",
+        "nicknames": [
+            "The Onion Knight"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Varys",
+        "nicknames": [
+            "The Spider"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Petyr Baelish",
+        "nicknames": [
+            "Littlefinger"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Bronn"
+    },
+    {
+        "id": 54,
+        "name": "Podrick Payne"
+    },
+    {
+        "id": 55,
+        "name": "Gendry"
+    },
+    {
+        "id": 56,
+        "name": "Sandor Clegane",
+        "nicknames": [
+            "The Hound"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Gregor Clegane",
+        "nicknames": [
+            "The Mountain"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Wylis",
+        "nicknames": [
+            "Hodor"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Maester Aemon"
+    },
+    {
+        "id": 60,
+        "name": "Barristan Selmy",
+        "nicknames": [
+            "Barristan the Bold"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Loras Tyrell",
+        "nicknames": [
+            "The Knight of Flowers"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Margaery Tyrell"
+    },
+    {
+        "id": 63,
+        "name": "Olenna Tyrell",
+        "nicknames": [
+            "The Queen of Thorns"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Mace Tyrell"
+    },
+    {
+        "id": 65,
+        "name": "Oberyn Martell",
+        "nicknames": [
+            "The Red Viper"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Doran Martell"
+    },
+    {
+        "id": 67,
+        "name": "Ellaria Sand"
+    },
+    {
+        "id": 68,
+        "name": "Theon Greyjoy",
+        "nicknames": [
+            "Reek"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Asha Greyjoy",
+        "nicknames": [
+            "Yara"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Euron Greyjoy",
+        "nicknames": [
+            "Crow's Eye"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Balon Greyjoy"
+    },
+    {
+        "id": 72,
+        "name": "Missandei"
+    },
+    {
+        "id": 73,
+        "name": "Daario Naharis"
+    },
+    {
+        "id": 74,
+        "name": "Qyburn"
+    },
+    {
+        "id": 75,
+        "name": "Greatjon Umber"
+    },
+    {
+        "id": 76,
+        "name": "Roose Bolton"
+    },
+    {
+        "id": 77,
+        "name": "Ramsay Bolton",
+        "nicknames": [
+            "Snow (formerly)"
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Wyman Manderly"
+    },
+    {
+        "id": 79,
+        "name": "Brynden Tully",
+        "nicknames": [
+            "The Blackfish"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Edmure Tully"
+    },
+    {
+        "id": 81,
+        "name": "Hoster Tully"
+    },
+    {
+        "id": 82,
+        "name": "Lysa Arryn"
+    },
+    {
+        "id": 83,
+        "name": "Robin Arryn"
+    },
+    {
+        "id": 84,
+        "name": "Maester Luwin"
+    },
+    {
+        "id": 85,
+        "name": "Alliser Thorne"
+    },
+    {
+        "id": 86,
+        "name": "Osha"
+    },
+    {
+        "id": 87,
+        "name": "Yohn Royce"
+    },
+    {
+        "id": 88,
+        "name": "Selyse Baratheon"
+    },
+    {
+        "id": 89,
+        "name": "Shireen Baratheon"
+    },
+    {
+        "id": 90,
+        "name": "Meera Reed"
+    },
+    {
+        "id": 91,
+        "name": "Jojen Reed"
+    },
+    {
+        "id": 92,
+        "name": "Maegor Targaryen",
+        "nicknames": [
+            "Maegor the Cruel"
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Aegon I Targaryen",
+        "nicknames": [
+            "Aegon the Conqueror"
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Rhaenys Targaryen"
+    },
+    {
+        "id": 95,
+        "name": "Aemma Arryn"
+    },
+    {
+        "id": 96,
+        "name": "Mysaria"
+    },
+    {
+        "id": 97,
+        "name": "Gwayne Hightower"
+    },
+    {
+        "id": 98,
+        "name": "Larys Strong"
+    },
+    {
+        "id": 99,
+        "name": "Victarion Greyjoy"
+    }
+]

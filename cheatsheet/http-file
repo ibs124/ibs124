@@ -1,0 +1,33 @@
+
+@base=https://localhost:5167
+ 
+### Create a new item
+ 
+POST {{base}}/todoitems
+Content-Type: application/json
+ 
+{
+  "id": "{{$guid}}",
+  "name":"walk dog",
+  "isComplete":false
+}
+ 
+### Get All items
+ 
+GET {{base}}/todoitems
+ 
+### Update item
+ 
+PUT {{base}}/todoitems/1
+Content-Type: application/json
+ 
+{
+  "id": 1,
+  "name":"walk dog",
+  "isComplete": true
+}
+ 
+### Delete item
+ 
+DELETE {{base}}/todoitems/1
+

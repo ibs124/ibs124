@@ -1,0 +1,9 @@
+{
+    "basename": true,
+    "colorcolumn": 100,
+    "colorscheme": "darcula",
+    "keepautoindent": true,
+    "ruler": false,
+    "softwrap": true,
+    "wordwrap": true
+}

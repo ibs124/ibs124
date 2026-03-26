@@ -1,0 +1,97 @@
+{
+    "editor.rulers": [ 
+        120],    
+    "editor.cursorStyle": "block",
+    "redhat.telemetry.enabled": false,
+    "editor.fontSize": 15,
+    "editor.minimap.enabled": false,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.bracketPairColorization.enabled": false,
+ 
+    // Customizations ===>
+    "workbench.colorCustomizations": {
+        "[Kimbie Dark]": {
+            "foreground": "#EBDBB2",
+            "editor.background": "#1D2021",
+    
+            "sideBar.background": "#1D2021",
+            "sideBar.border": "#EBDBB2",
+            
+            "statusBar.background": "#1D2021",
+            "statusBar.border": "#EBDBB2",
+    
+            "activityBar.background": "#1D2021",
+            "activityBar.border": "#EBDBB2",                        
+        },             
+    },
+    
+    "editor.tokenColorCustomizations": {                        
+        "[Kimbie Dark]": {
+            "strings": "#b8bb26",
+            "comments": "#928374",
+            "numbers": "#d3869b",
+            "keywords": "#9d0006",
+            "functions": "#EBDBB2",
+            "types": "#EBDBB2",
+            "variables": "#EBDBB2",
+            
+            "textMateRules": [
+                {
+                    "scope": [
+                        "keyword.other.package.java",
+                        "keyword.other.import.java",
+                        "storage.modifier.java",
+                        "storage.modifier.extends.java",
+                        "storage.type.primitive.java",
+                        "variable.language.this.java",
+                        "keyword.control.new.java",                        
+                    ],
+                    "settings": {
+                        "foreground": "#d79921"
+                    }
+                },
+                {
+                    "scope": [
+                        "storage.modifier.package.java",
+                        "storage.modifier.import.java",
+                        "storage.type.annotation.java",
+                        "constant.other.key.java",
+                        "storage.type.java",
+                        "storage.type.generic.java",
+                        "storage.type.object.array.java",
+                        "meta.method.body.java",
+                        "meta.method.java",
+                        "meta.class.body.java",
+                        "meta.class.java",
+                        "source.java",
+                        "entity.other.inherited-class.java",
+                    ],
+                    "settings": {
+                        "foreground": "#EBDBB2"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.tag.html",
+                        "punctuation.definition.tag.begin.html",
+                        "punctuation.definition.tag.end.html",
+
+                        "punctuation.definition.parameters.begin.js",
+                        "punctuation.definition.parameters.end.js",
+                        "punctuation.definition.block.js",
+                        "meta.brace.round.js",
+                        "keyword.operator.expression.of.js",
+                        "meta.brace.square.js",                                                                                                       
+                    ],
+                    "settings": {
+                        "foreground": "#9d0006"
+                    }
+                },
+
+            ]
+        }
+    },
+    "workbench.colorTheme": "Kimbie Dark",
+    // "workbench.colorTheme": "Kimbie Dark",
+
+}   

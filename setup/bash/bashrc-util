@@ -1,0 +1,18 @@
+git-init-push() {
+    local dir="$1"
+    local remote="$2"
+
+    if [ "$#" -ne 2 ]; then
+        echo "Usage: git-init-push <directory> <remote-url>"
+        return 1
+    fi
+
+    cd "$dir" || return 1
+
+    git init &&
+    git add . &&
+    git commit -a -m "Initialise project structure" &&
+    git remote add origin "$remote" &&
+    git push --set-upstream origin main &&
+    git push
+}
